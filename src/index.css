@@ -1,0 +1,132 @@
+/* index.css */
+
+
+
+helpdesk-system/node_modules helpdesk-system/public helpdesk-system/src helpdesk-system/.gitignore helpdesk-system/eslint.config.js helpdesk-system/index.html helpdesk-system/package.json helpdesk-system/package-lock.json helpdesk-system/README.md helpdesk-system/vite.config.js
+/* ========== AUTH FORM STYLES ========== */
+.auth-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #4285F4;
+  }
+  
+  /* Button styles */
+  .auth-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    background-color: #3367D6;
+  }
+  
+  /* Registration specific button */
+  .auth-container .register-btn {
+    background-color: #4CAF50;
+  }
+  
+  .auth-container .register-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer links */
+  .auth-footer {
+    text-align: center;
+    margin-top: 1rem;
+    color: #666;
+  }
+  
+  .link-button {
+    background: none;
+    border: none;
+    color: #4285F4;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+    font-weight: 500;
+  }
+  
+  .link-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Messages */
+  .error-message {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #f8d7da;
+    border-radius: 4px;
+  }
+  
+  .success-message {
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #d4edda;
+    border-radius: 4px;
+  }
+  
+  /* Field errors */
+  .error {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  /* ========== RESPONSIVE ADJUSTMENTS ========== */
+  @media (max-width: 480px) {
+    .auth-container {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+    
+    .auth-container h1 {
+      font-size: 1.5rem;
+    }
+  }
